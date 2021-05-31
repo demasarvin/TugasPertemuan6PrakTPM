@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#808080">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="6dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Penjualan"
+            android:textColor="@color/white"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/textViewTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:text="1 Januari 2000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Kotor"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"/>
+
+        <TextView
+            android:id="@+id/textViewPendapatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FFFFFF"
+            android:text="Rp 5.000.000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengeluaran"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"/>
+
+        <TextView
+            android:id="@+id/textViewPengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:textColor="#FFFFFF"
+            android:text="Rp 2.000.000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Bersih"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:layout_marginLeft="6dp"/>
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:textColor="#FFFFFF"
+            android:text="Rp 3.000.000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/buttonEditPenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0000FF"
+            android:text="Edit"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/buttonDeletePenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF0000"
+            android:text="Delete" />
+
+
+</LinearLayout>

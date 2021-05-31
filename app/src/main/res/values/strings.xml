@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TugasCRUD</string>
+    <array name="kategori">
+        <item>Makanan</item>
+        <item>Minuman</item>
+        <item>Pakaian</item>
+        <item>Elektronik</item>
+    </array>
+</resources>

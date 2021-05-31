@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="50dp"
+            android:text="DATA PENJUALAN HARIAN"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Penjualan"
+            android:paddingLeft="4dp"/>
+
+        <EditText
+            android:id="@+id/editTextTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Tanggal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Kotor"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="4dp"/>
+
+        <EditText
+            android:id="@+id/editTextPendapatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Masukkan Pendapatan Kotor"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengeluaran"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="4dp"/>
+
+        <EditText
+            android:id="@+id/editTextPengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Masukkan Pengeluaran"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonAddPenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambahkan data"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/textViewViewPenjualans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Lihat Data Penjualan"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
